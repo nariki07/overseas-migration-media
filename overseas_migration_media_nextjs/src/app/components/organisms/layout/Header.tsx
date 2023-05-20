@@ -17,30 +17,30 @@ export const Header = () => {
                     <div className="flex justify-between items-center py-5">
                         <div className="text-3xl">KAIJU.com</div>
                         <div>
-                            <ul className="space-x-12 hidden items-center md:flex ">
+                            <ul className="space-x-12 hidden items-center  md:flex ">
                                 <li className="flex">
-                                    <div className="w-5 h-5 mr-1">
-                                        <FontAwesomeIcon icon={faCrown} className="text-blue-600" />
-                                    </div>
-                                    <a href="/">海外移住ランキング</a>
+                                        <div className="w-5 h-5 mr-1">
+                                            <FontAwesomeIcon icon={faCrown} className="text-blue-600" />
+                                        </div>
+                                        <a href="/"　className="hover:text-cyan-400">海外移住ランキング</a>
                                 </li>
                                 <li className="flex">
                                     <div className="w-4 h-4 mr-1">
                                         <FontAwesomeIcon icon={faLocationDot} className="text-blue-600" />
                                     </div>
-                                    <a href="/">地図検索</a>
+                                    <a href="/" className="hover:text-cyan-400">地図検索</a>
                                 </li>
                                 <li className="flex">
                                     <div className="w-5 h-5 mr-1">
                                         <FontAwesomeIcon icon={faShoePrints} className="text-blue-600" />
                                     </div>
-                                    <a href="/">海外移住の始め方</a>
+                                    <a href="/" className="hover:text-cyan-400">海外移住の始め方</a>
                                 </li>
                                 <li className="flex">
                                     <div className="w-5 h-5 mr-1">
                                         <FontAwesomeIcon icon={faBookOpen} className="text-blue-600" />
                                     </div>
-                                    <a href="/">移住の基礎知識</a>
+                                    <a href="/" className="hover:text-cyan-400">移住の基礎知識</a>
                                 </li>
                             </ul>
                             {openTop ? <IconButton variant="text" color="blue-gray" onClick={closeDrawerTop}>
@@ -64,28 +64,28 @@ export const Header = () => {
                         <Typography variant="h5" color="blue-gray">
                             <ul>
                                 <li className="flex">
-                                    <div className="w-5 h-5 mr-1">
+                                    <span className="w-5 h-5 mr-1">
                                         <FontAwesomeIcon icon={faCrown} className="text-white" />
-                                    </div>
-                                    <a href="/" className="text-white">海外移住ランキング</a>
+                                    </span>
+                                    <a href="/" className="text-white hover:text-cyan-400">海外移住ランキング</a>
                                 </li>
                                 <li className="flex">
                                     <div className="w-4 h-4 mr-1">
                                         <FontAwesomeIcon icon={faLocationDot} className="text-white" />
                                     </div>
-                                    <a href="/" className="text-white">地図検索</a>
+                                    <a href="/" className="text-white hover:text-cyan-400">地図検索</a>
                                 </li>
                                 <li className="flex">
                                     <div className="w-5 h-5 mr-1">
                                         <FontAwesomeIcon icon={faShoePrints} className="text-white" />
                                     </div>
-                                    <a href="/" className="text-white">海外移住の始め方</a>
+                                    <a href="/" className="text-white hover:text-cyan-400">海外移住の始め方</a>
                                 </li>
                                 <li className="flex">
                                     <div className="w-5 h-5 mr-1">
                                         <FontAwesomeIcon icon={faBookOpen} className="text-white" />
                                     </div>
-                                    <a href="/" className="text-white">移住の基礎知識</a>
+                                    <a href="/" className="text-white hover:text-cyan-400">移住の基礎知識</a>
                                 </li>
                             </ul>
                         </Typography>
