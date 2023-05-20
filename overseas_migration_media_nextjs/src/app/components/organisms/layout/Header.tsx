@@ -60,32 +60,32 @@ export const Header = () => {
                     onClose={closeDrawerTop}
                     className="p-4 bg-cyan-100 md:hidden"
                 >
-                    <div className="mb-6 flex items-center justify-center">
+                    <div className="mb-6 flex items-center justify-center bg-sky-500">
                         <Typography variant="h5" color="blue-gray">
                             <ul>
                                 <li className="flex">
                                     <div className="w-5 h-5 mr-1">
-                                        <FontAwesomeIcon icon={faCrown} className="text-blue-600" />
+                                        <FontAwesomeIcon icon={faCrown} className="text-white" />
                                     </div>
-                                    <a href="/">海外移住ランキング</a>
+                                    <a href="/" className="text-white">海外移住ランキング</a>
                                 </li>
                                 <li className="flex">
                                     <div className="w-4 h-4 mr-1">
-                                        <FontAwesomeIcon icon={faLocationDot} className="text-blue-600" />
+                                        <FontAwesomeIcon icon={faLocationDot} className="text-white" />
                                     </div>
-                                    <a href="/">地図検索</a>
+                                    <a href="/" className="text-white">地図検索</a>
                                 </li>
                                 <li className="flex">
                                     <div className="w-5 h-5 mr-1">
-                                        <FontAwesomeIcon icon={faShoePrints} className="text-blue-600" />
+                                        <FontAwesomeIcon icon={faShoePrints} className="text-white" />
                                     </div>
-                                    <a href="/">海外移住の始め方</a>
+                                    <a href="/" className="text-white">海外移住の始め方</a>
                                 </li>
                                 <li className="flex">
                                     <div className="w-5 h-5 mr-1">
-                                        <FontAwesomeIcon icon={faBookOpen} className="text-blue-600" />
+                                        <FontAwesomeIcon icon={faBookOpen} className="text-white" />
                                     </div>
-                                    <a href="/">移住の基礎知識</a>
+                                    <a href="/" className="text-white">移住の基礎知識</a>
                                 </li>
                             </ul>
                         </Typography>
