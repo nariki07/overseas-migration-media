@@ -11,7 +11,7 @@ export const Header = () => {
     const closeDrawerTop = () => setOpenTop(false);
 
     return(
-        <header>
+        <header className="font-notoSans">
             <div className="bg-cyan-100">
                 <div className="container mx-auto px-8 md:px-14 lg:px-24　">
                     <div className="flex justify-between items-center py-5">
