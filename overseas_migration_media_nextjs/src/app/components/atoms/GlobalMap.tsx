@@ -3,7 +3,7 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 export const GlobalMap = () => {
     return(
-        <div className="elative font-notoSans flex justify-center items-center">
+        <div className="relative font-notoSans flex justify-center items-center">
             <div className="relative">
                 <FontAwesomeIcon icon={faPlane} style={{ fontSize: "4rem" }} className="absolute left-0 top-0" />
                 <img src="/image/map.png" alt="画像" />
