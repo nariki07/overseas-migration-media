@@ -6,10 +6,10 @@ import {SpeechBubble} from "@/app/components/atoms/SpeechBubble";
 
 export const MapSearch = () => {
     return (
-        <div className="relative">
-            <GlobalMap />
-            <div className="absolute top-10">
-                <SpeechBubble>ヨーロッパ</SpeechBubble>
+        <div className="relative flex justify-center items-center">
+          <GlobalMap />
+          <div className="absolute top-20 left-80">
+              <SpeechBubble>ヨーロッパ</SpeechBubble>
             </div>
         </div>
     );

@@ -11,7 +11,7 @@ export const SpeechBubble = ({ children }:{children: ReactNode}) => {
                 icon={faMessage}
                 style={{ color: "beige", fontSize: "3rem", transform: "scaleX(3.2)" }}
             />
-            <p className="absolute text-black ml-2 mb-2">{children}</p>
+            <p className="absolute text-black mb-2 whitespace-nowrap">{children}</p>
         </div>
     );
 };
